@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 import { gwendolyn } from "./fonts";
+import { Navbar } from "./components/Navbar";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <p className="mb-1">O bom humor é a unica</p>
         <p className="">qualidade divina do homem</p>
       </div>
+      <Navbar/>
     </div>
   );
 }
