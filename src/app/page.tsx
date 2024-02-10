@@ -12,10 +12,12 @@ export default function Home() {
       <h1 className="font-bold text-4xl font-serif text-center">
         Lucas L. Borges
       </h1>
-      <div className="w-fit mx-auto uppercase tracking-12 mt-16 mb-24 text-center">
-        <h2 className={`${gwendolyn.className} text-3xl font-bold mb-1`}>ls</h2>
-        <p className="mb-1">O bom humor é a unica</p>
-        <p className="">qualidade divina do homem</p>
+      <div className="flex flex-col items-center justify-center w-fit mx-auto uppercase tracking-12 mt-16 mb-24 text-center sm:flex-row sm:gap-3">
+        <h2 className={`${gwendolyn.className} text-3xl font-bold mb-1 sm:order-1 sm:text-4xl`}>
+          ls
+        </h2>
+        <p className="md:text-lg sm:order-0">O bom humor é a unica</p>
+        <p className="md:text-lg sm:order-2">qualidade divina do homem</p>
       </div>
       <Navbar/>
       <FeaturedProject/>
