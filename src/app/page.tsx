@@ -1,14 +1,14 @@
 import Image from "next/image";
 
 import { gwendolyn } from "./fonts";
-import { Navbar } from "./components/Navbar";
-import { Project } from "./components/Project";
+import { Navbar } from "../components/Navbar";
+import { ProjectCard } from "../components/ProjectCard";
 
 // h-[calc(100vh-5.5rem)] w-[calc(100vw-2rem)]
 
 export default function Home() {
   return (
-    <div className="relative z-[-1] flex flex-col h-screen w-full p-[5rem_1rem_0.5rem] md:p-[6rem_1.25rem_0.75rem] lg:p-[4.5rem_5rem_0.5rem] xl:lg:p-[7rem_5rem_0.5rem]">
+    <div className="relative flex flex-col h-screen w-full p-[5rem_1rem_0.5rem] md:p-[6rem_1.25rem_0.75rem] lg:p-[4.5rem_5rem_0.5rem] xl:lg:p-[7rem_5rem_0.5rem]">
       <h1 className="font-bold text-4xl font-serif text-center md:text-5xl  xl:text-6xl">
         Lucas L. Borges
       </h1>
@@ -20,7 +20,7 @@ export default function Home() {
         <p className="sm:order-2 md:text-lg">qualidade divina do homem</p>
       </div>
       <Navbar/>
-      <Project/>
+      <ProjectCard/>
     </div>
 
   );

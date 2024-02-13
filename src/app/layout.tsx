@@ -16,5 +16,5 @@ export default function RootLayout({children}: Readonly<{
     <html lang="en">
       <body className={hubballi.className}>{children}</body>
     </html>
-  );
+  )
 }
