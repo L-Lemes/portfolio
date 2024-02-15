@@ -1,10 +1,6 @@
-import Image from "next/image";
-
 import { gwendolyn } from "./fonts";
 import { Navbar } from "../components/Navbar";
 import { ProjectCard } from "../components/ProjectCard";
-
-// h-[calc(100vh-5.5rem)] w-[calc(100vw-2rem)]
 
 export default function Home() {
   return (
