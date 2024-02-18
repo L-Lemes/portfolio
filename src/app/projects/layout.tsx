@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 import { hubballi } from "@/app/fonts";
 
 import "@/app/globals.css";
+import { Suspense } from "react";
+import Loading from "./loading";
 
 export const metadata: Metadata = {
   title: "LS dev blog",

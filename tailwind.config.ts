@@ -26,7 +26,8 @@ const config: Config = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        "featured-image": "url('/featuredProject.png')"
+        "featured-image": "url('/featuredProject.png')",
+        "photo": "url('/photo.png')",
       },
       letterSpacing: {
         '12': '12%'
