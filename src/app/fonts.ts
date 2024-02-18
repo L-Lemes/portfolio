@@ -1,4 +1,4 @@
-import { Gwendolyn,Hubballi } from "next/font/google";
+import { Gwendolyn, Hubballi } from "next/font/google";
 
 export const gwendolyn = Gwendolyn({ subsets: ["latin"], weight: ["400", "700"]}) 
 

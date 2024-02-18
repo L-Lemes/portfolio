@@ -1,21 +1,23 @@
+import Link from "next/link"
+
 export const Navbar = () => {
   return (
     <div className="relative border-y-[1px] h-[3.625rem] border-black w-full before:absolute before:-top-[0.25rem] before:block before:w-full before:h-[0.75px] before:bg-black lg:before:-top-[0.375rem]">
       <ul className="flex justify-between px-6 pb-3 pt-[1.125rem] uppercase text-sm md:text-base md:px-10 xl:text-lg xl:px-12">
         <li>
-          <a href="/about" className="hover:drop-shadow-about hover:text-[1.375rem] hover:-translate-y-5 duration-200">about</a>
+          <Link href="/about" className="lg:hover:drop-shadow-about lg:hover:text-[1.375rem] lg:hover:-translate-y-5 duration-200">about</Link>
         </li>
         <li>
-          <a href="/contact" className="hover:drop-shadow-contact hover:text-[1.375rem] hover:-translate-y-5 duration-200">contact</a>
+          <Link href="/contact" className="lg:hover:drop-shadow-contact lg:hover:text-[1.375rem] lg:hover:-translate-y-5 duration-200">contact</Link>
         </li>
         <li>
-          <a href="/projects" className="hover:drop-shadow-projects hover:text-[1.375rem] hover:-translate-y-5 duration-200">projects</a>
+          <Link href="/projects" className="lg:hover:drop-shadow-projects lg:hover:text-[1.375rem] lg:hover:-translate-y-5 duration-200">projects</Link>
         </li>
         <li>
-          <a href="/blog" className="hover:drop-shadow-blog hover:text-[1.375rem] hover:-translate-y-5 duration-200">blog</a>
+          <Link href="/blog" className="lg:hover:drop-shadow-blog lg:hover:text-[1.375rem] lg:hover:-translate-y-5 duration-200">blog</Link>
         </li>
         <li className="hidden lg:inline">
-          <a href="/blog" className="hover:drop-shadow-experience hover:text-[1.375rem] hover:-translate-y-5 duration-200">Experience</a>
+          <Link href="/experience" className="lg:hover:drop-shadow-experience lg:hover:text-[1.375rem] lg:hover:-translate-y-5 duration-200">Experience</Link>
         </li>
       </ul>
     </div>

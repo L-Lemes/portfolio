@@ -4,7 +4,7 @@ import { ProjectCard } from "../components/ProjectCard";
 
 export default function Home() {
   return (
-    <div className="relative flex flex-col h-screen w-full p-[5rem_1rem_0.5rem] md:p-[6rem_1.25rem_0.75rem] lg:p-[4.5rem_5rem_0.5rem] xl:lg:p-[7rem_5rem_0.5rem]">
+    <div className="relative flex flex-col h-[100dvh] w-full p-[5rem_1rem_0.5rem] md:p-[6rem_1.25rem_0.75rem] lg:p-[4.5rem_5rem_0.5rem] xl:lg:p-[7rem_5rem_0.5rem]">
       <h1 className="font-bold text-4xl font-serif text-center md:text-5xl  xl:text-6xl">
         Lucas L. Borges
       </h1>
