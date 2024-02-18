@@ -9,7 +9,7 @@ export const ProjectCard = () => {
           href="/projects"
           className="relative text-nowrap text-sm text-[#666] sm:text-base md:text-lg xl:text-xl
           hover:text-[#aaa] duration-200 hover:text-[1.375rem]
-          after:absolute after:-bottom-[0.375rem] after:left-1/2 after:-translate-x-1/2 after:block after:w-6 after:h-[0.75px] after:bg-[#666] md:after:-bottom-2 md:after:w-8 after:hover:bg-[#aaa] after:duration-200"
+          after:absolute after:-bottom-[0.375rem] after:left-1/2 after:-translate-x-1/2 after:block after:w-6 after:h-[0.75px] after:bg-[#666] md:after:-bottom-2 md:after:w-8 after:hover:bg-[#aaa] after:hover:-bottom-1 after:duration-200"
         >
           read more
         </Link>
