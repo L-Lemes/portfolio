@@ -1,11 +1,9 @@
 import Link from "next/link"
-interface NavbarProps extends React.ComponentProps<"div"> {
 
-}
-export const Navbar = ({...props}: NavbarProps) => {
+export const Navbar = ({...props}: React.ComponentProps<"div">) => {
   return (
     <div {...props}>
-      <div className="relative border-y-[1px] h-[3.625rem] border-black w-full before:absolute before:-top-[0.25rem] before:block before:w-full before:h-[0.75px] before:bg-black lg:before:-top-[0.375rem]">
+      <div className="relative border-y h-[3.625rem] border-black w-full before:absolute before:-top-[0.25rem] before:block before:w-full before:h-[1px] before:bg-black lg:before:-top-[0.375rem]">
         <ul className="flex justify-between px-6 pb-3 pt-[1.125rem] uppercase text-sm md:text-base md:px-10 xl:text-lg xl:px-12">
           <li>
             <Link href="/about" className="lg:hover:drop-shadow-about lg:hover:text-[1.375rem] lg:hover:-translate-y-5 duration-200">about</Link>

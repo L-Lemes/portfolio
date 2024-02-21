@@ -28,6 +28,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "featured-image": "url('/featuredProject.png')",
         "photo": "url('/photo.png')",
+        "photo-2": "url('/photo2.png')",
       },
       letterSpacing: {
         '12': '12%'
