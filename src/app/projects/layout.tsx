@@ -1,10 +1,8 @@
 import type { Metadata } from "next";
 
-import { hubballi } from "@/app/fonts";
+import { poppins } from "@/app/fonts";
 
 import "@/app/globals.css";
-import { Suspense } from "react";
-import Loading from "./loading";
 
 export const metadata: Metadata = {
   title: "LS dev blog",
@@ -19,7 +17,7 @@ export default function ProjectLayout({children}: Readonly<{
 }>) {
   return (
     <html lang="en">
-      <body className={hubballi.className}>{children}</body>
+      <body className={poppins.className}>{children}</body>
     </html>
   )
 }

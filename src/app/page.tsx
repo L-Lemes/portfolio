@@ -12,10 +12,10 @@ export default function Home() {
         <h2 className={`${gwendolyn.className} text-5xl font-bold mb-1 sm:order-1 md:text-6xl xl:text-7xl`}>
           ls
         </h2>
-        <p className="sm:order-0 md:text-lg">O bom humor é a unica</p>
-        <p className="sm:order-2 md:text-lg">qualidade divina do homem</p>
+        <p className="font-light sm:order-0 md:text-lg tracking-2">O bom humor é a unica</p>
+        <p className="font-light sm:order-2 md:text-lg tracking-2">qualidade divina do homem</p>
       </div>
-      <Navbar/>
+      <Navbar page={['about', 'contact', 'projects', 'blog']}/>
       <ProjectCard/>
     </div>
 

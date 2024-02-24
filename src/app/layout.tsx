@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-import { hubballi } from "./fonts";
+import { poppins } from "./fonts";
 
 import "./globals.css";
 
@@ -17,7 +17,7 @@ export default function RootLayout({children}: Readonly<{
 }>) {
   return (
     <html lang="en">
-      <body className={hubballi.className}>{children}</body>
+      <body className={poppins.className}>{children}</body>
     </html>
   )
 }
