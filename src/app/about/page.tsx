@@ -9,9 +9,9 @@ import { HeaderMobile } from "@/components/HeaderMobile";
 //  width={232.5}
 export default function About() {
   return (
-    <div className="">
+    <div className="flex flex-col">
       <HeaderMobile className="px-4"/>
-      <ScrollArea className="h-[38rem] w-screen rounded-md p-4">
+      <ScrollArea className="h-[calc(100dvh-9.4rem)] w-screen rounded-md p-4">
         <Image
           src="/photo6.png"
           width={280}
@@ -31,7 +31,7 @@ export default function About() {
 
         </article>
       </ScrollArea>
-      <Navbar page={['home', 'contact', 'projects', 'blog']} className="fixed bottom-4 w-[calc(100%-2rem)] ml-4"/>
+      <Navbar page={['home', 'contact', 'projects', 'blog']} className="fixed bottom-4 z-0 w-[calc(100%-2rem)] ml-4"/>
     </div>
   )
 }
