@@ -8,7 +8,7 @@ export const Navbar = ({page, ...props}: NavbarProps) => {
   return (
     <div {...props}>
       <div className="relative border-y h-[3.625rem] border-black w-full before:absolute before:-top-[0.25rem] before:block before:w-full before:h-[1px] before:bg-black lg:before:-top-[0.375rem]">
-        <ul className="flex justify-between px-6 pb-3 pt-[1.125rem] text-sm uppercase tracking-2 md:text-base md:px-10 xl:text-lg xl:px-12">
+        <ul className="flex justify-between px-6 pb-3 pt-[1.125rem] text-sm uppercase tracking-0.75 md:text-base md:px-10 xl:text-lg xl:px-12">
           <li>
             <Link 
               href={page[0] !== 'home' ? `/${page[0]}` : '/'}

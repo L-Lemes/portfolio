@@ -17,7 +17,7 @@ export default function RootLayout({children}: Readonly<{
 }>) {
   return (
     <html lang="en">
-      <body className={poppins.className}>{children}</body>
+      <body className={`${poppins.className} bg-[#fffdfa]`}>{children}</body>
     </html>
   )
 }

@@ -14,10 +14,33 @@ const config = {
       center: true,
       padding: "2rem",
       screens: {
-        "2xl": "1400px",
+        'sm': '540px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1440px',
       },
     },
     extend: {
+      dropShadow: {
+        'about': '-8px 8px 1.5px rgba(0, 0, 0, 0.5)',
+        'contact': '-4px 8px 1.5px rgba(0, 0, 0, 0.5)',
+        'projects': '-0px 8px 1.5px rgba(0, 0, 0, 0.5)',
+        'blog': '4px 8px 1.5px rgba(0, 0, 0, 0.5)',
+        'experience': '8px 8px 1.5px rgba(0, 0, 0, 0.5)'
+      },
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "featured-image": "url('/featuredProject.png')",
+        "photo": "url('/photo.png')",
+        "photo-2": "url('/photo2.png')",
+      },
+      letterSpacing: {
+        '2': '0.2em',
+        '0.75': '0.075em'
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

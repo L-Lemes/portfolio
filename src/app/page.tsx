@@ -8,7 +8,7 @@ export default function Home() {
       <h1 className="font-bold text-4xl font-serif text-center md:text-5xl  xl:text-6xl">
         Lucas L. Borges
       </h1>
-      <div className="flex flex-col items-center justify-center w-fit mx-auto uppercase tracking-12 mt-16 mb-24 text-center sm:flex-row sm:gap-3 md:gap-4 md:mt-4 md:mb-28 lg:gap-5 lg:mb-20 xl:gap-6 xl:mb-32">
+      <div className="flex flex-col items-center justify-center w-fit mx-auto uppercase tracking-2 mt-16 mb-24 text-center sm:flex-row sm:gap-3 md:gap-4 md:mt-4 md:mb-28 lg:gap-5 lg:mb-20 xl:gap-6 xl:mb-32">
         <h2 className={`${gwendolyn.className} text-5xl font-bold mb-1 sm:order-1 md:text-6xl xl:text-7xl`}>
           ls
         </h2>
