@@ -15,7 +15,7 @@ export default function Home() {
         <p className="font-light sm:order-0 md:text-lg tracking-2">O bom humor é a unica</p>
         <p className="font-light sm:order-2 md:text-lg tracking-2">qualidade divina do homem</p>
       </div>
-      <Navbar page={['about', 'contact', 'projects', 'blog']}/>
+      <Navbar page={['sobre', 'contato', 'projetos', 'blog', 'experiencia']}/>
       <ProjectCard/>
     </div>
 
