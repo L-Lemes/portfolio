@@ -70,7 +70,10 @@
   * {
     @apply border-border;
   }
-  body {
-    @apply bg-background text-foreground;
+}
+
+@layer components {
+  .font-serif-time {
+    font-family: "Times New Roman"
   }
 }
