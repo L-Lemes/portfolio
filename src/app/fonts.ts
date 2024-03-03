@@ -1,6 +1,4 @@
-import { Gwendolyn, Poppins, DM_Serif_Display } from "next/font/google";
-
-export const dM_Serif_Display = DM_Serif_Display({ subsets: ["latin"], weight: "400"})
+import { Gwendolyn, Poppins } from "next/font/google";
 
 export const gwendolyn = Gwendolyn({ subsets: ["latin"], weight: ["400", "700"]}) 
 
