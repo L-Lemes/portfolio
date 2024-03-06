@@ -1,5 +1,5 @@
 import { gwendolyn } from "./fonts";
-import { Navbar } from "../components/Navbar";
+import { NavbarHomepage } from "../components/NavbarHomepage";
 import { ProjectCard } from "../components/ProjectCard";
 
 export default function Home() {
@@ -21,7 +21,7 @@ export default function Home() {
         <p className="font-light lg:order-0 md:text-lg tracking-2">O bom humor é a unica</p>
         <p className="font-light lg:order-2 md:text-lg tracking-2">qualidade divina do homem</p>
       </div>
-      <Navbar page={['sobre', 'contato', 'projetos', 'blog', 'experiencia']}/>
+      <NavbarHomepage page={['sobre', 'contato', 'projetos', 'blog', 'experiencia']}/>
       <ProjectCard/>
     </div>
 
