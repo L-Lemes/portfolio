@@ -10,16 +10,14 @@ const config = {
 	],
   prefix: "",
   theme: {
-    container: {
-      center: true,
-      screens: {
-        'sm': '540px',
-        'md': '768px',
-        'lg': '1024px',
-        'xl': '1280px',
-        '2xl': '1440px',
-      },
+    screens: {
+      'sm': '540px',
+      'md': '768px',
+      'lg': '1024px',
+      'xl': '1280px',
+      '2xl': '1440px',
     },
+    
     extend: {
       dropShadow: {
         'about': '-8px 8px 1.5px rgba(0, 0, 0, 0.5)',

@@ -2,17 +2,19 @@ import { NavbarButton } from "@/components/NavbarButton";
 import { gwendolyn } from "../fonts";
 import Image from "next/image";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { Navbar } from "@/components/Navbar";
 
 export default function About() {
   return (
-    <div className=" py-6">
-      <ScrollArea className="h-[calc(100dvh-8.5rem)] px-4">
+    <div className="py-6 sm:py-10 md:py-14">
+      <ScrollArea className="h-[calc(100dvh-8.5rem)] px-4 max-w-[56.25rem] sm:px-6 md:px-8">
         <Image
         src="/image9.png"
         alt="test"
         quality={100}
         width={573}
         height={516}
+        className="sm:h-[45dvh] object-cover object-bottom md:w-full md:h-[30dvh]"
         />
         <h2 className="text-xl font-semibold mt-7">Sobre o Desenvolvedor</h2>
         <p className="text-sm leading-[1.375rem] text-justify mt-2.5">
@@ -23,7 +25,7 @@ export default function About() {
         </p>
       </ScrollArea>
      
-      <NavbarButton className={` ${gwendolyn.className} fixed bottom-6 left-1/2 -translate-x-1/2 text-white text-3xl font-bold w-fit h-fit bg-black p-3 rounded-full`}/>
+      <NavbarButton className={` ${gwendolyn.className} fixed bottom-6 left-1/2 -translate-x-1/2 text-white text-3xl font-bold w-fit h-fit bg-black p-3 rounded-full sm:bottom-10 md:hidden`}/>
     </div>
   )
 }
