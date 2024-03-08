@@ -22,9 +22,10 @@ const config = {
       dropShadow: {
         'about': '-8px 8px 1.5px rgba(0, 0, 0, 0.5)',
         'contact': '-4px 8px 1.5px rgba(0, 0, 0, 0.5)',
-        'projects': '-0px 8px 1.5px rgba(0, 0, 0, 0.5)',
+        'projects': '0px 8px 1.5px rgba(0, 0, 0, 0.5)',
         'blog': '4px 8px 1.5px rgba(0, 0, 0, 0.5)',
-        'experience': '8px 8px 1.5px rgba(0, 0, 0, 0.5)'
+        'experience': '8px 8px 1.5px rgba(0, 0, 0, 0.5)',
+        'navbar': '0px -1px 4px rgba(0, 0, 0, 0.5)'
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
